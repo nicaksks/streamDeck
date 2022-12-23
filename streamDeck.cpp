@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
-#include "streamDeck.h"
+
+void disable();
 
 void console() {
   ShowWindow(GetConsoleWindow(), SW_HIDE);
